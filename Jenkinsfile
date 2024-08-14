@@ -7,7 +7,7 @@ pipeline {
     environment {
         // Docker credentials defined in Jenkins credentials store
         DOCKER_CREDENTIALS_ID = 'docker_credentials'
-        DOCKER_REGISTRY = 'jittu42779'
+        DOCKER_REGISTRY = 'nagasaipavankumar'
         DOCKER_IMAGE = 'addressbook'
         DOCKER_TAG = 'latest'
     }
